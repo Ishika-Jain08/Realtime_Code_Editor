@@ -3,9 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "node server.js",
     "build": "npm install && npm run build",
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
