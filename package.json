@@ -3,18 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev:front": " react-scripts start",
-    "dev": "npm run build && npm run  server:prod",
-    "build": "react-scripts build",
+    "dev": "vite && npm run  server:prod",
+    "build": "vite build",
     "server:dev" : "nodemon server.js",
     "server:prod" :"node server.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.0.1",
-    "@testing-library/user-event": "^14.5.2",
     "codemirror": "^5.65.15",
     "express": "^4.21.1",
     "react": "^18.3.1",
